@@ -168,6 +168,7 @@ color: black;
     margin-top: -210px; */
   }
   .det-up{
+    margin-top: 20px;
     margin-bottom: 50px;
   }
   .social{
@@ -179,6 +180,7 @@ color: black;
   height: 25px;
   width: 150px;
 margin-left: 0;
+margin-bottom: 10px;
   text-align: center;
   border: none ;
   border-radius: 10px;
@@ -202,7 +204,7 @@ li{
 }
 .sub{
   font-size: 11px;
-  margin-bottom:20px ;
+  margin-bottom:30px ;
 }
 .projects{
  
@@ -252,6 +254,10 @@ font-size: 6.5px;
 .App{
   width: 380px;
   
+}
+.hire{
+  text-align: center;
+  margin-top: 50px;
 }
 
 }
