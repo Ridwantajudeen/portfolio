@@ -1,0 +1,228 @@
+body{
+background-color:rgb(177, 148, 177) ;
+}
+.App{
+  color: rgb(177, 148, 177);
+ 
+}
+.myimage{
+  height: 130px;
+  border-radius: 10px;
+  border: solid  rgb(177, 148, 177);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+ 
+
+}
+#about-intro{
+  font-size: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+ max-width: 1200px;
+ margin-left: 20px;
+ margin-top: 20px;
+}
+.myheader{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(27, 3, 27);
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  
+  
+
+}
+.details{
+  background-color:rgb(27, 3, 27) ;
+  width: 355px;
+  height: 900px;
+  border: none;
+ 
+  /* margin-left: auto;
+  margin-top: -210px; */
+}
+.header{
+  display: flex;
+  
+}
+.title{
+  text-align: center;
+  text-decoration: underline;
+}
+.sub{
+  font-size:15px ;
+  text-align: center;
+  margin-bottom: 45px;
+  
+}
+ul{
+  list-style: none;
+  
+}
+
+.social-icon{
+  background-color: rgb(177, 148, 177);
+  height: 55px;
+  width: 300px;
+  margin-left: 30px;
+  text-align: center;
+  border: none ;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px 3px rgba(158, 147, 147, 0.4);
+}  
+
+.github, .twitter, .email, .phone, .linkedin{
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
+.github:hover,  .twitter:hover, .email:hover, .phone:hover, .linkedin:hover{
+  height: 45px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(177, 148, 177);
+}
+
+
+.projects{
+ 
+
+  background-color:rgb(27, 3, 27) ;
+  max-width: 1000px;
+  margin-top: 40px;
+  margin-left: 60px;
+  height: 650px;
+  border-radius:  20px;
+  text-align: center;
+  box-shadow: 1px 1px 2px 3px rgba(44, 31, 31, 0.4);
+  
+  
+}
+.project-head{
+ margin-top: 0px;
+ 
+}
+.works{
+  overflow: scroll ;
+  height: 570px;
+  overflow-x: hidden;
+  
+}
+.project-image{
+  border-radius: 20px;
+}
+.view{
+  margin-bottom: 40px;
+  margin-top: -20px;
+
+}
+.view:hover{
+font-size: 27px;
+}
+
+#hire{
+  height: 50px ;
+  background-color: green;
+  width: 150px;
+  font-size: 22px;
+  
+  font-weight: bolder;
+
+  border-radius:  10px;
+  text-align: center;
+  box-shadow: 1px 1px 2px 3px rgba(119, 105, 105, 0.4);
+}
+.hire{
+  text-align: center;
+  margin-top: 25px;
+}
+
+@media screen and (max-width:700px){
+  .myimage{
+    height: 90px;
+  }
+  #about-intro{
+    margin-top: 0;
+    font-size: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   max-width: 400px;
+  }
+  .details{
+    font-size: 11px;
+    background-color:#1b031b ;
+    width: 200px;
+    height: 800px;
+    border: none;
+   
+    /* margin-left: auto;
+    margin-top: -210px; */
+  }
+  
+.social-icon{
+  background-color: rgb(177, 148, 177);
+  height: 35px;
+  width: 200px;
+margin-left: 0;
+  text-align: center;
+  border: none ;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px 3px rgba(158, 147, 147, 0.4);
+}  
+
+.github, .twitter, .email, .phone, .linkedin{
+  height: 27px;
+ 
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
+.github:hover,  .twitter:hover, .email:hover, .phone:hover, .linkedin:hover{
+  height: 30px;
+}
+li{
+  margin-left: -40px;
+}
+.projects{
+ 
+font-size: 4px;
+  background-color:rgb(27, 3, 27) ;
+  max-width: 170px;
+  margin-top: 40px;
+  margin-left: 10px;
+  height: 250px;
+  border-radius:  10px;
+  text-align: center;
+  box-shadow: 1px 1px 2px 3px rgba(44, 31, 31, 0.4);
+  
+  
+}
+.project-image{
+  border-radius: 20px;
+  max-width: 150px;
+}
+.myheader{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(27, 3, 27);
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  
+  
+
+}
+.works{
+  overflow: scroll ;
+  height: 225px;
+  overflow-x: hidden;
+  
+}
+.view{
+  margin-top: 0;
+}
+
+}
