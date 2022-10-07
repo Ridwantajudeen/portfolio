@@ -155,8 +155,9 @@ font-size: 27px;
     font-size: 11px;
     background-color:#1b031b ;
     width: 200px;
-    height: 800px;
+    height: 750px;
     border: none;
+    border-radius: 0 0 10px 10px;
    
     /* margin-left: auto;
     margin-top: -210px; */
@@ -192,8 +193,9 @@ font-size: 4px;
   background-color:rgb(27, 3, 27) ;
   max-width: 170px;
   margin-top: 40px;
-  margin-left: 10px;
-  height: 250px;
+  margin-right: 5px;
+  margin-left: 5px;
+  height: 450px;
   border-radius:  10px;
   text-align: center;
   box-shadow: 1px 1px 2px 3px rgba(44, 31, 31, 0.4);
@@ -217,12 +219,16 @@ font-size: 4px;
 }
 .works{
   overflow: scroll ;
-  height: 225px;
+  height: 420px;
   overflow-x: hidden;
   
 }
 .view{
   margin-top: 0;
+}
+.App{
+  width: 350px;
+  
 }
 
 }
