@@ -152,21 +152,28 @@ color: black;
    max-width: 400px;
   }
   .details{
-    font-size: 11px;
+    font-size: 9px;
     background-color:#1b031b ;
-    width: 200px;
-    height: 750px;
+    width: 150px;
+    height: 600px;
     border: none;
     border-radius: 0 0 10px 10px;
+
    
     /* margin-left: auto;
     margin-top: -210px; */
   }
-  
+  .det-up{
+    margin-bottom: 50px;
+  }
+  .social{
+    width: 140px;
+    
+  }
 .social-icon{
   background-color: rgb(177, 148, 177);
-  height: 35px;
-  width: 200px;
+  height: 25px;
+  width: 150px;
 margin-left: 0;
   text-align: center;
   border: none ;
@@ -175,10 +182,10 @@ margin-left: 0;
 }  
 
 .github, .twitter, .email, .phone, .linkedin{
-  height: 27px;
- 
-  margin-left: 5px;
-  margin-right: 5px;
+  height: 20px;
+  margin-top: 2px;
+  margin-left: 3px;
+  margin-right: 3px;
   
 }
 .github:hover,  .twitter:hover, .email:hover, .phone:hover, .linkedin:hover{
@@ -186,16 +193,22 @@ margin-left: 0;
 }
 li{
   margin-left: -40px;
+  font-size: 11px;
+  
+}
+.sub{
+  font-size: 11px;
+  margin-bottom:20px ;
 }
 .projects{
  
-font-size: 4px;
+font-size: 6.5px;
   background-color:rgb(27, 3, 27) ;
-  max-width: 170px;
+  max-width: 230px;
   margin-top: 40px;
   margin-right: 5px;
   margin-left: 5px;
-  height: 400px;
+  height: 336px;
   border-radius:  10px;
   text-align: center;
   box-shadow: 1px 1px 2px 3px rgba(44, 31, 31, 0.4);
@@ -204,7 +217,7 @@ font-size: 4px;
 }
 .project-image{
   border-radius: 10px;
-  max-width: 150px;
+  max-width: 180px;
 }
 .myheader{
   display: flex;
@@ -219,15 +232,20 @@ font-size: 4px;
 }
 .works{
   overflow: scroll ;
-  height: 370px;
+  height: 290px;
   overflow-x: hidden;
   
 }
 .view{
   margin-top: 0;
+  font-size: 15px;
+}
+.view:hover{
+  font-size: 17px;
+  color: rgb(216, 157, 216);
 }
 .App{
-  width: 400px;
+  width: 380px;
   
 }
 
