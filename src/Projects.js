@@ -8,7 +8,7 @@ function Projects(props){
     return(
         <div className="projects">
             <div>
-            <h1 className="project-head">Take A look at some of my woks</h1>
+            <h1 className="project-head">Take A look at some of my works</h1>
             </div> 
             <div className="works">
             <div className="fintech">
