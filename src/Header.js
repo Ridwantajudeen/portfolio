@@ -5,8 +5,9 @@ import linkedin from "./linkedin.png"
 import twitter from "./twitter.png"
 import phone from "./phone.png"
 import email from "./email.png"
-import Projects from "./Projects";
+
 import Hirebtn from "./Hirebtn";
+import Pprops from "./Projectprops";
 
 function Header(){
     return(
@@ -17,13 +18,13 @@ function Header(){
                 <img src={myimage} className="myimage"  alt=''/>
             </div>
             <div className="about" >
-                <h1 id="about-intro">Hello, My name is Ridwan Tajudeen.<br/> <br/>I am a Knowledgeable Front End Web Developer adept at creating successful
+                <p id="about-intro">Hello, My name is Ridwan Tajudeen.<br/> <br/>I am a Knowledgeable Front End Web Developer adept at creating successful
 websites that meet User's needs.  produce plans and improve
-designs for usability and functionality. </h1>
+designs for usability and functionality. </p>
             </div>
             
             </div>
-            <Projects/>
+            <Pprops/>
             </div>
             <div className="details">
                 <div className="det-up">

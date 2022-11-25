@@ -1,8 +1,9 @@
 import React from "react";
+import { Lines }  from 'reactpreloaders';
 
 function Details(){
     return(
-        <div>hd</div>
+        <div>h</div>
     )
 }
 
